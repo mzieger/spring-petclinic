@@ -1,1 +1,1 @@
-select concat("Info","Init") as '';
+select concat("Info","Init","test") as '';
