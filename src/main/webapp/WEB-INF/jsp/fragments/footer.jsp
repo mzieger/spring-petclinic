@@ -1,6 +1,6 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
-<table class="footer" style="border-top: 1px solid #f60;">
+<table class="footer" style="border-top: 1px solid #2e95dc;">
     <tr>
         <td width="70%"></td>
         <td align="right">
