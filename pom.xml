@@ -459,7 +459,7 @@
 					<path>/petclinic</path>
 				</configuration>
 			</plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>com.xebialabs.deployit</groupId>
                 <artifactId>maven-deployit-plugin</artifactId>
                 <version>4.0.0</version>
@@ -479,7 +479,7 @@
                         <sql.SqlScripts name="sql" location="src/main/resources/db/mysql" />
                     </deployables>
                 </configuration>
-            </plugin>-->
+            </plugin>
 		</plugins>
 	</build>
 
