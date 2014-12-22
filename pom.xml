@@ -68,19 +68,7 @@
 
 	</properties>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus-dexter-releases</id>
-            <url>http://nexus.xebialabs.com/nexus/content/repositories/releases</url>
-        </pluginRepository>
-
-        <pluginRepository>
-            <id>nexus-dexter-snapshots</id>
-            <url>http://nexus.xebialabs.com/nexus/content/repositories/snapshots</url>
-        </pluginRepository>
-    </pluginRepositories>
-
-	<dependencies>
+    <dependencies>
 		<dependency>
 			<groupId>org.jadira.usertype</groupId>
 			<artifactId>usertype.core</artifactId>
@@ -459,28 +447,7 @@
 					<path>/petclinic</path>
 				</configuration>
 			</plugin>
-            <plugin>
-                <groupId>com.xebialabs.deployit</groupId>
-                <artifactId>maven-deployit-plugin</artifactId>
-                <version>4.5.0</version>
-                <executions>
-                    <execution>
-                        <id>deployit-plugin-package</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>generate-deployment-package</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <deployables>
-                        <tomcat.War artifactId="spring-petclinic">
-                        </tomcat.War>
-                        <sql.SqlScripts name="sql" location="src/main/resources/db/mysql" />
-                    </deployables>
-                </configuration>
-            </plugin>
-		</plugins>
+        </plugins>
 	</build>
 
 	<url>demopetclinic</url>
