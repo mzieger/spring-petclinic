@@ -4,7 +4,7 @@
 <spring:url value="/resources/images/ASR-Logo.png" var="logo"/>
 
 <div style="width: 601px;">
-        <div class="row" style="border-bottom: 4px solid #2e95dc;">
+        <div class="row" style="border-bottom: 4px solid #c9c9c9;">
             <div class="col-xs-4" style="padding-top: 10px"><span class="petclinic-header">Pet Clinic</span></div>
             <div class="col-xs-5" style="padding-top: 23px"><span class="A_Spring_Framework_Demonstration">A Spring Framework Demonstration</span></div>
             <div class="col-xs-* pull-right"><img src="${logo}"/></div>
