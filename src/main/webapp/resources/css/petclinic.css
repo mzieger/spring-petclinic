@@ -19,7 +19,7 @@ input[type="text"] {
 }
 
 .navbar .nav > li > a {
-  color: #2e95dc;
+  color: #c9c9c9;
   padding-bottom: 0px;
 }
 
@@ -30,7 +30,7 @@ input[type="text"] {
 .petclinic-header {
   font-size: 30px;
   font-family: "Rockwell";
-  color: #2e95dc;
+  color: #c9c9c9;
   font-weight: bold;
   text-align: justifyLeft;
 }
@@ -38,7 +38,7 @@ input[type="text"] {
 .A_Spring_Framework_Demonstration {
   font-size: 10px;
   font-family: "Rockwell";
-  color: #2e95dc;
+  color: #c9c9c9;
   font-weight: bold;
   line-height: 0.95;
   text-align: justifyLeft;
