@@ -1,7 +1,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<spring:url value="/resources/images/EMC-Logo.png" var="logo"/>
+<spring:url value="/resources/images/ASR-Logo.png" var="logo"/>
 
 <div style="width: 601px;">
         <div class="row" style="border-bottom: 4px solid #2e95dc;">
