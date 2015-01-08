@@ -13,7 +13,7 @@
 <div class="container">
     <jsp:include page="fragments/bodyHeader.jsp"/>
     <h2><fmt:message key="welcome to ASR demo"/></h2>
-    <spring:url value="/resources/images/CX4-120.jpg" htmlEscape="true" var="petsImage"/>
+    <spring:url value="/resources/images/ASR.jpg" htmlEscape="true" var="petsImage"/>
     <img src="${petsImage}"/>
 
     <jsp:include page="fragments/footer.jsp"/>
