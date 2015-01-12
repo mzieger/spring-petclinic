@@ -5,6 +5,11 @@ import java.net.URISyntaxException;
 
 import com.rallydev.rest.RallyRestApi;
 
+/**
+ * 
+ * @author kkale
+ *
+ */
 public class RestApiFactory {
 
     //Specify your Rally server

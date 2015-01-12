@@ -15,6 +15,11 @@ import com.rallydev.rest.response.QueryResponse;
 import com.rallydev.rest.util.Fetch;
 import com.rallydev.rest.util.QueryFilter;
 
+/**
+ * 
+ * @author kkale
+ *
+ */
 public class RallyTestGateway {
 
 	static RallyRestApi restApi;

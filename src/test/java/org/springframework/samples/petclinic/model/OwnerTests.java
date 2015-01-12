@@ -46,24 +46,24 @@ public class OwnerTests {
     
     @Test
     public void testPurchaseOneItem() {
-    	RallyTestGateway.recordTestResult("TC1", "7.1", "Pass");
+    	RallyTestGateway.recordTestResult("TC1", "7.2", "Pass");
     }
 
     @Test
     public void testPurchaseMultipleItem() {
-    	RallyTestGateway.recordTestResult("TC2", "7.1", "Pass");
+    	RallyTestGateway.recordTestResult("TC2", "7.2", "Pass");
     	
     }
 
     @Test
     public void testPurchaseMaxItems() {
-    	RallyTestGateway.recordTestResult("TC3", "7.1", "Pass");
+    	RallyTestGateway.recordTestResult("TC3", "7.2", "Pass");
     	
     }
 
     @Test
     public void testPurchaseMaxItemsPlusOne() {
-    	RallyTestGateway.recordTestResult("TC4", "7.1", "Pass");
+    	RallyTestGateway.recordTestResult("TC4", "7.2", "Pass");
     	
     }
 
