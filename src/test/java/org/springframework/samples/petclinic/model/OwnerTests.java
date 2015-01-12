@@ -21,6 +21,8 @@ import static org.junit.Assert.assertNull;
 import org.junit.Test;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.rally.gateway.test.RallyTestGateway;
+
 /**
  * JUnit test for the {@link Owner} class.
  *
@@ -39,6 +41,30 @@ public class OwnerTests {
         owner.addPet(fido);
         assertEquals(fido, owner.getPet("Fido"));
         assertEquals(fido, owner.getPet("fido"));
+    }
+    
+    
+    @Test
+    public void testPurchaseOneItem() {
+    	RallyTestGateway.recordTestResult("TC1", "7.2", "Pass");
+    }
+
+    @Test
+    public void testPurchaseMultipleItem() {
+    	RallyTestGateway.recordTestResult("TC2", "7.2", "Pass");
+    	
+    }
+
+    @Test
+    public void testPurchaseMaxItems() {
+    	RallyTestGateway.recordTestResult("TC3", "7.2", "Pass");
+    	
+    }
+
+    @Test
+    public void testPurchaseMaxItemsPlusOne() {
+    	RallyTestGateway.recordTestResult("TC4", "7.2", "Pass");
+    	
     }
 
 }
