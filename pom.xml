@@ -68,17 +68,7 @@
 
 	</properties>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus-dexter-releases</id>
-            <url>http://nexus.xebialabs.com/nexus/content/repositories/releases</url>
-        </pluginRepository>
-
-        <pluginRepository>
-            <id>nexus-dexter-snapshots</id>
-            <url>http://nexus.xebialabs.com/nexus/content/repositories/snapshots</url>
-        </pluginRepository>
-    </pluginRepositories>
+   
 
 	<dependencies>
 		<dependency>
