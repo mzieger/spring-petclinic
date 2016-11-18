@@ -67,6 +67,14 @@
 		<mysql.version>5.1.22</mysql.version>
 
 	</properties>
+	
+	<repositories>
+<repository>
+  <id>central</id>
+  <url>https://repo1.maven.org/maven2/</url>
+  
+</repository>
+		</repositories>
 <pluginRepositories>
 
     <pluginRepository>
