@@ -1,7 +1,9 @@
 # Spring PetClinic Sample Application for XL Deploy
-
+# changes 
 ## What does it look like?
-- test commit
+
+-test commit
+
 -spring-petclinic has been deployed here on cloudfoundry: http://demo-spring-petclinic.cfapps.io/
 
 
